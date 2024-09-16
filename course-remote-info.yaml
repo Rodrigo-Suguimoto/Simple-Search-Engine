@@ -3,14 +3,14 @@ hyperskill_project:
   ide_files: https://cogniterra.org/media/attachments/lesson/23049/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Thu, 01 Jan 1970 00:00:00 UTC"
+update_date: "Mon, 16 Sep 2024 10:25:16 UTC"
 stages:
   - id: 354
     step: 5496
     is_completed: true
   - id: 355
     step: 5497
-    is_completed: false
+    is_completed: true
   - id: 356
     step: 5498
     is_completed: false
@@ -100,7 +100,7 @@ topics:
       theory_id: 3506
     - title: While and do-while loops
       theory_id: 3498
-    - title: For-loop
+    - title: For loop
       theory_id: 3505
     - title: Break and continue. Branching
       theory_id: 3507

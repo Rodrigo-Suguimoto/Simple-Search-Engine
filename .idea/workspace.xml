@@ -5,7 +5,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="591f4687-3c01-4f0d-a9e6-1733243b1107" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Search Engine (Java)/task/build/classes/java/Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task-build-classes-java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Search Engine (Java)/task/build/classes/java/Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task-build-classes-java.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Search Engine (Java)/task/build/classes/java/Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task-build-classes-java.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Search Engine (Java)/task/build/generated/sources/annotationProcessor/java/Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task-build-generated-sources-annotationProcessor-java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Search Engine (Java)/task/build/generated/sources/annotationProcessor/java/Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task-build-generated-sources-annotationProcessor-java.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Search Engine (Java)/task/build/generated/sources/annotationProcessor/java/Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task-build-generated-sources-annotationProcessor-java.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Search Engine (Java)/task/build/generated/sources/headers/java/Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task-build-generated-sources-headers-java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Search Engine (Java)/task/build/generated/sources/headers/java/Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task-build-generated-sources-headers-java.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Search Engine (Java)/task/build/generated/sources/headers/java/Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task-build-generated-sources-headers-java.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Search Engine (Java)/task/build/reports/tests/Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task-build-reports-tests.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Search Engine (Java)/task/build/reports/tests/Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task-build-reports-tests.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Search Engine (Java)/task/build/reports/tests/Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task-build-reports-tests.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Search Engine (Java)/task/build/test-results/Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task-build-test-results.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Search Engine (Java)/task/build/test-results/Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task-build-test-results.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Search Engine (Java)/task/build/test-results/Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task-build-test-results.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Search Engine (Java)/task/build/tmp/Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task-build-tmp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Search Engine (Java)/task/build/tmp/Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task-build-tmp.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Simple Search Engine (Java)/task/build/tmp/Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task-build-tmp.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Command-line arguments/Get the game mode/Simple_Search_Engine_(Java).Topics-Command-line_arguments-Get_the_game_mode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Command-line arguments/Get the game mode/Simple_Search_Engine_(Java).Topics-Command-line_arguments-Get_the_game_mode.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Command-line arguments/Get the game mode/Simple_Search_Engine_(Java).Topics-Command-line_arguments-Get_the_game_mode.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Command-line arguments/How to pass ints/Simple_Search_Engine_(Java).Topics-Command-line_arguments-How_to_pass_ints.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Command-line arguments/How to pass ints/Simple_Search_Engine_(Java).Topics-Command-line_arguments-How_to_pass_ints.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Command-line arguments/How to pass ints/Simple_Search_Engine_(Java).Topics-Command-line_arguments-How_to_pass_ints.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Command-line arguments/Passing three arguments/Simple_Search_Engine_(Java).Topics-Command-line_arguments-Passing_three_arguments.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Command-line arguments/Passing three arguments/Simple_Search_Engine_(Java).Topics-Command-line_arguments-Passing_three_arguments.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Command-line arguments/Passing three arguments/Simple_Search_Engine_(Java).Topics-Command-line_arguments-Passing_three_arguments.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Command-line arguments/Theory/Simple_Search_Engine_(Java).Topics-Command-line_arguments-Theory.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Command-line arguments/Theory/Simple_Search_Engine_(Java).Topics-Command-line_arguments-Theory.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Command-line arguments/Theory/Simple_Search_Engine_(Java).Topics-Command-line_arguments-Theory.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/Get the game mode/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/Get the game mode/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/Get the game mode/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/Get the game mode/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/How to pass ints/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/How to pass ints/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/How to pass ints/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/How to pass ints/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/Parameters and their values/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/Parameters and their values/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/Parameters and their values/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/Parameters and their values/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/Passing three arguments/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/Passing three arguments/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/Passing three arguments/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/Passing three arguments/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/Theory/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/Theory/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/Theory/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/Theory/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Command-line arguments/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/section-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/Expand the search/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/Expand the search/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/Inverted Index search/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/Inverted Index search/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/Search strategies/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/Search strategies/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/String theory/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/String theory/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/User menu/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/User menu/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/X-files/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/X-files/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/lesson-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/test/SimpleSearchEngineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/test/SimpleSearchEngineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,23 +98,33 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Main.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Simple Search Engine (Java)/task/test/SimpleSearchEngineTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Command-line arguments/Get the game mode/src/Main.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Command-line arguments/How to pass ints/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Command-line arguments/Parameters and their values/src/Main.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Command-line arguments/Passing three arguments/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Command-line arguments/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2lpYjGn2NaeRVBzvTOdOuwcmHoY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Edu.Yaml.Migrate": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Problem.executor&quot;: &quot;Run&quot;,
+    &quot;Edu.Yaml.Migrate&quot;: &quot;true&quot;,
+    &quot;Gradle.Tests in 'Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task.test'.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Simple Search Engine (Java)" />

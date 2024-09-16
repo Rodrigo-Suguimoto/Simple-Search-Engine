@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SimpleSearchEngineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-09T10:52:41" hostname="10903-MB.local" time="0.163">
+<testsuite name="SimpleSearchEngineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-16T11:15:11" hostname="10903-MB.local" time="0.171">
   <properties/>
-  <testcase name="start" classname="SimpleSearchEngineTest" time="0.163"/>
+  <testcase name="start" classname="SimpleSearchEngineTest" time="0.171"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
-> hello my name is alex
-> my
-2
+Enter the number of people:
+> 1
+Enter all people:
+> John
+Enter the number of search queries:
+> 1
+Enter data to search people:
+> this text will definitely be no match
+No matching people found.
+
 ?[1;31m
 Start test 2?[0m
-> hello my name is alex
-> alex
-5
-?[1;31m
-Start test 3?[0m
-> what a beautiful place
-> what
-1
-?[1;31m
-Start test 4?[0m
-> hi
-> hi
-1
-?[1;31m
-Start test 5?[0m
-> hi
-> hello
-Not found
-?[1;31m
-Start test 6?[0m
-> twenty one pilots white stripes queen system of a down
-> hello
-Not found
-?[1;31m
-Start test 7?[0m
-> twenty one pilots white stripes queen system of a down
-> a
-9
-?[1;31m
-Start test 8?[0m
-> one two three
-> four
-Not found
+Enter the number of people:
+> 3
+Enter all people:
+> john smith smith@gmail.com
+> John lock john_lock@somecompany.com
+> help me iamaprogrammer@gmail.com
+Enter the number of search queries:
+> 4
+Enter data to search people:
+> john
+Found people:
+john smith smith@gmail.com
+John lock john_lock@somecompany.com
+
+Enter data to search people:
+> Somecompany
+Found people:
+John lock john_lock@somecompany.com
+
+Enter data to search people:
+> @
+Found people:
+john smith smith@gmail.com
+John lock john_lock@somecompany.com
+help me iamaprogrammer@gmail.com
+
+Enter data to search people:
+> this text will definitely be no match
+No matching people found.
+
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
