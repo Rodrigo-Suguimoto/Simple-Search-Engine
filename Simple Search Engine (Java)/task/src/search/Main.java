@@ -8,19 +8,11 @@ import java.util.regex.Pattern;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int numberOfLinesToSearch = getNumberOfRepetition(scanner, "Enter the number of people:");
-        ArrayList<String> textToSearchFor = getTextToSearchFor(scanner, numberOfLinesToSearch);
-        int numberOfSearchQueries = getNumberOfRepetition(scanner, "Enter the number of search queries:");
-        int iterationsOfSearch = 0;
-
-        while (iterationsOfSearch < numberOfSearchQueries) {
-            search(scanner, textToSearchFor);
-            System.out.println();
-            iterationsOfSearch++;
-        }
+        int numberOfPeople = setNumberOfPeople(scanner, "Enter the number of people:");
+        ArrayList<String> people = setPeopleDataset(scanner, numberOfPeople);
     }
 
-    private static int getNumberOfRepetition(Scanner scanner, String message) {
+    private static int setNumberOfPeople(Scanner scanner, String message) {
         System.out.println(message);
         int numberOfRepetition = scanner.nextInt();
         scanner.nextLine(); // Consume the line break that nextInt() left behind.
@@ -28,11 +20,11 @@ public class Main {
         return numberOfRepetition;
     }
 
-    private static ArrayList<String> getTextToSearchFor(Scanner scanner, int numberOfLinesToSearch) {
+    private static ArrayList<String> setPeopleDataset(Scanner scanner, int numberOfPeople) {
         System.out.println("Enter all people:");
         ArrayList<String> textToSearchFor = new ArrayList<String>();
 
-        for (int i = 0; i < numberOfLinesToSearch; i++) {
+        for (int i = 0; i < numberOfPeople; i++) {
             String newText = scanner.nextLine();
             textToSearchFor.add(newText);
         }
