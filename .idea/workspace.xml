@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="591f4687-3c01-4f0d-a9e6-1733243b1107" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/User menu/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/User menu/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +36,19 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Menu.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Simple Search Engine (Java)/task/test/SimpleSearchEngineTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Command-line arguments/Get the game mode/src/Main.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Command-line arguments/How to pass ints/src/Task.java" root0="FORCE_HIGHLIGHTING" />

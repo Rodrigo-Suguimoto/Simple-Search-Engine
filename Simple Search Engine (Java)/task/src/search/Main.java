@@ -1,5 +1,6 @@
 package search;
 
+import java.util.Optional;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
@@ -10,6 +11,14 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int numberOfPeople = setNumberOfPeople(scanner, "Enter the number of people:");
         ArrayList<String> people = setPeopleDataset(scanner, numberOfPeople);
+        Menu menu = new Menu();
+        menu.printOptions();
+        Optional<Integer> selectedOption = menu.getSelectedOptionFromUser();
+        while (!selectedOption.isPresent()) {
+            menu.printOptions();
+            selectedOption = menu.getSelectedOptionFromUser();
+
+        }
     }
 
     private static int setNumberOfPeople(Scanner scanner, String message) {
