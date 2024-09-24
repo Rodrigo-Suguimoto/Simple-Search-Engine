@@ -13,11 +13,21 @@ public class Main {
         ArrayList<String> people = setPeopleDataset(scanner, numberOfPeople);
         Menu menu = new Menu();
         menu.printOptions();
-        Optional<Integer> selectedOption = menu.getSelectedOptionFromUser();
-        while (!selectedOption.isPresent()) {
+        Optional<Integer> optionalOption = menu.getSelectedOptionFromUser();
+        Integer selectedOption = optionalOption.orElse()
+
+        while (selectedOption.get() != 0) {
             menu.printOptions();
             selectedOption = menu.getSelectedOptionFromUser();
-
+            switch (selectedOption.get()) {
+                case 1:
+                    break;
+                case 2:
+                    printAllPeople(people);
+                    break;
+                case 0:
+                    return;
+            }
         }
     }
 
@@ -39,6 +49,12 @@ public class Main {
         }
 
         return textToSearchFor;
+    }
+
+    private static void printAllPeople(ArrayList<String> people) {
+        System.out.println(); // Print an empty line.
+        System.out.println("=== List of people ===");
+        people.forEach((person) -> System.out.println(person));
     }
 
     private static void search(Scanner scanner, ArrayList<String> textToSearchFor) {

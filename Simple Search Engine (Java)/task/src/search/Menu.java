@@ -7,7 +7,7 @@ public class Menu {
     int option;
 
     public void printOptions() {
-        System.out.println(); // Print an empty line above.
+        System.out.println(); // Print an empty line.
         System.out.println("=== Menu ===");
         System.out.println("1. Find a person");
         System.out.println("2. Print all people");
@@ -19,7 +19,7 @@ public class Menu {
         int option = scanner.nextInt();
 
         if (option > 2 || option < 0) {
-            System.out.println(); // Print an empty line above.
+            System.out.println(); // Print an empty line.
             System.out.println("Incorrect option! Try again.");
             return Optional.empty();
         } else {
