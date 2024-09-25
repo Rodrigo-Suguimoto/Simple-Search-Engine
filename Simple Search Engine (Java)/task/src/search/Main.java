@@ -12,23 +12,23 @@ public class Main {
         int numberOfPeople = setNumberOfPeople(scanner, "Enter the number of people:");
         ArrayList<String> people = setPeopleDataset(scanner, numberOfPeople);
         Menu menu = new Menu();
-        menu.printOptions();
-        Optional<Integer> optionalOption = menu.getSelectedOptionFromUser();
-        Integer selectedOption = optionalOption.orElse()
+        final Integer DEFAULT_VALUE_FOR_EMPTY_OPTION = -1;
 
-        while (selectedOption.get() != 0) {
+        Integer valueChosen = DEFAULT_VALUE_FOR_EMPTY_OPTION;
+        do {
             menu.printOptions();
-            selectedOption = menu.getSelectedOptionFromUser();
-            switch (selectedOption.get()) {
+            Optional<Integer> optional = menu.getSelectedOptionFromUser();
+            valueChosen = optional.orElse(DEFAULT_VALUE_FOR_EMPTY_OPTION);
+
+            switch (valueChosen) {
                 case 1:
                     break;
                 case 2:
                     printAllPeople(people);
                     break;
-                case 0:
-                    return;
             }
-        }
+        } while (valueChosen == -1 || valueChosen != 0);
+
     }
 
     private static int setNumberOfPeople(Scanner scanner, String message) {
