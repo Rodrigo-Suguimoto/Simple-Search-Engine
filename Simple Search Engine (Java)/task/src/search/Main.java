@@ -22,6 +22,7 @@ public class Main {
 
             switch (valueChosen) {
                 case 1:
+                    search(scanner, people);
                     break;
                 case 2:
                     printAllPeople(people);
@@ -58,7 +59,8 @@ public class Main {
     }
 
     private static void search(Scanner scanner, ArrayList<String> textToSearchFor) {
-        System.out.println("Enter data to search people:");
+        System.out.println(); // Print an empty line.
+        System.out.println("Enter a name or email to search all suitable people.");
         String query = scanner.nextLine();
         ArrayList<String> matches = new ArrayList<String>();
 
@@ -72,7 +74,6 @@ public class Main {
         });
 
         if (matches.size() > 0) {
-            System.out.println("Found people:");
             matches.forEach(text -> System.out.println(text));
         } else {
             System.out.println("No matching people found.");
