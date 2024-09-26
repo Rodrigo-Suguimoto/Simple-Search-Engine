@@ -14,16 +14,16 @@ public class Menu {
         System.out.println("0. Exit");
     }
 
-    public Optional<Integer> getSelectedOptionFromUser() {
+    public Integer getSelectedOptionFromUser() {
         Scanner scanner = new Scanner(System.in);
         int option = scanner.nextInt();
 
         if (option > 2 || option < 0) {
             System.out.println(); // Print an empty line.
             System.out.println("Incorrect option! Try again.");
-            return Optional.empty();
+            return null;
         } else {
-            return Optional.of(option);
+            return option;
         }
     }
 }
