@@ -12,10 +12,28 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/test/SearchEngineTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topics/Command-line arguments/Theory/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Command-line arguments/Theory/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/X-files/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/X-files/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/classes/java/main/search/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/classes/java/main/search/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/classes/java/main/search/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/classes/java/main/search/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/classes/java/test/SimpleSearchEngineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/classes/java/test/SimpleSearchEngineTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/classes/java/test/TestClue.class" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/classes/java/test/TestClue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/reports/tests/test/classes/SimpleSearchEngineTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/reports/tests/test/classes/SimpleSearchEngineTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/test-results/test/TEST-SimpleSearchEngineTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/test-results/test/TEST-SimpleSearchEngineTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/tmp/compileTestJava/compileTransaction/stash-dir/SimpleSearchEngineTest.class.uniqueId1" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/tmp/compileTestJava/compileTransaction/stash-dir/SimpleSearchEngineTest.class.uniqueId1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/tmp/compileTestJava/compileTransaction/stash-dir/TestClue.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/tmp/compileTestJava/compileTransaction/stash-dir/TestClue.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/out/production/classes/search/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/out/production/classes/search/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +74,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Main.class" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Main.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Menu.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Simple Search Engine (Java)/task/test/SearchEngineTests.java" root0="FORCE_HIGHLIGHTING" />
@@ -82,7 +101,7 @@
     &quot;Gradle.Tests in 'Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task.test'.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;stage-4&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;
   }

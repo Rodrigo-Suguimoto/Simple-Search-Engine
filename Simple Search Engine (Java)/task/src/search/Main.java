@@ -9,66 +9,45 @@ import java.io.File;
 
 public class Main {
     public static void main(String[] args) {
+        ArrayList<String> dataset = new ArrayList<>();
         if (args[0].equals("--data")) {
-            readFile(args[1]);
+            dataset = readFileAndReturnDataset(args[1]);
         }
 
+        Menu menu = new Menu();
+        Integer option = null;
 
-//        int numberOfPeople = setNumberOfPeople(scanner, "Enter the number of people:");
-//        ArrayList<String> people = setPeopleDataset(scanner, numberOfPeople);
-//        Menu menu = new Menu();
-//        Integer option = null;
-//
-//        do {
-//            menu.printOptions();
-//            option = menu.getSelectedOptionFromUser();
-//            if (option != null) {
-//                switch (option) {
-//                    case 1:
-//                        search(scanner, people);
-//                        break;
-//                    case 2:
-//                        printAllPeople(people);
-//                        break;
-//                }
-//            }
-//        } while (option == null || option != 0);
+        do {
+            menu.printOptions();
+            option = menu.getSelectedOptionFromUser();
+            if (option != null) {
+                switch (option) {
+                    case 1:
+                        search(dataset);
+                        break;
+                    case 2:
+                        printAllPeople(dataset);
+                        break;
+                }
+            }
+        } while (option == null || option != 0);
 
     }
 
-    private static void readFile(String fileName) {
-        String pathToFile = String.format("../%s", fileName);
+    private static ArrayList<String> readFileAndReturnDataset(String fileName) {
+        String pathToFile = String.format("./%s", fileName);
         File file = new File(pathToFile);
+        ArrayList<String> dataset = new ArrayList<>();
 
         try {
             Scanner scanner = new Scanner(file);
             while(scanner.hasNext()) {
-                System.out.println(scanner.nextLine());
+                dataset.add(scanner.nextLine());
             }
         } catch (FileNotFoundException e) {
             System.out.println("No file found on " + pathToFile);
         }
-
-    }
-
-    private static int setNumberOfPeople(Scanner scanner, String message) {
-        System.out.println(message);
-        int numberOfRepetition = scanner.nextInt();
-        scanner.nextLine(); // Consume the line break that nextInt() left behind.
-
-        return numberOfRepetition;
-    }
-
-    private static ArrayList<String> setPeopleDataset(Scanner scanner, int numberOfPeople) {
-        System.out.println("Enter all people:");
-        ArrayList<String> textToSearchFor = new ArrayList<String>();
-
-        for (int i = 0; i < numberOfPeople; i++) {
-            String newText = scanner.nextLine();
-            textToSearchFor.add(newText);
-        }
-
-        return textToSearchFor;
+        return dataset;
     }
 
     private static void printAllPeople(ArrayList<String> people) {
@@ -77,7 +56,8 @@ public class Main {
         people.forEach((person) -> System.out.println(person));
     }
 
-    private static void search(Scanner scanner, ArrayList<String> textToSearchFor) {
+    private static void search(ArrayList<String> textToSearchFor) {
+        Scanner scanner = new Scanner(System.in);
         System.out.println(); // Print an empty line.
         System.out.println("Enter a name or email to search all suitable people.");
         String query = scanner.nextLine();
