@@ -1,33 +1,53 @@
 package search;
 
-import java.util.Optional;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.io.File;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int numberOfPeople = setNumberOfPeople(scanner, "Enter the number of people:");
-        ArrayList<String> people = setPeopleDataset(scanner, numberOfPeople);
-        Menu menu = new Menu();
-        Integer option = null;
+        if (args[0].equals("--data")) {
+            readFile(args[1]);
+        }
 
-        do {
-            menu.printOptions();
-            option = menu.getSelectedOptionFromUser();
-            if (option != null) {
-                switch (option) {
-                    case 1:
-                        search(scanner, people);
-                        break;
-                    case 2:
-                        printAllPeople(people);
-                        break;
-                }
+
+//        int numberOfPeople = setNumberOfPeople(scanner, "Enter the number of people:");
+//        ArrayList<String> people = setPeopleDataset(scanner, numberOfPeople);
+//        Menu menu = new Menu();
+//        Integer option = null;
+//
+//        do {
+//            menu.printOptions();
+//            option = menu.getSelectedOptionFromUser();
+//            if (option != null) {
+//                switch (option) {
+//                    case 1:
+//                        search(scanner, people);
+//                        break;
+//                    case 2:
+//                        printAllPeople(people);
+//                        break;
+//                }
+//            }
+//        } while (option == null || option != 0);
+
+    }
+
+    private static void readFile(String fileName) {
+        String pathToFile = String.format("../%s", fileName);
+        File file = new File(pathToFile);
+
+        try {
+            Scanner scanner = new Scanner(file);
+            while(scanner.hasNext()) {
+                System.out.println(scanner.nextLine());
             }
-        } while (option == null || option != 0);
+        } catch (FileNotFoundException e) {
+            System.out.println("No file found on " + pathToFile);
+        }
 
     }
 
