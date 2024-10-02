@@ -1,16 +1,19 @@
 package search;
 
-import java.util.Optional;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.io.File;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int numberOfPeople = setNumberOfPeople(scanner, "Enter the number of people:");
-        ArrayList<String> people = setPeopleDataset(scanner, numberOfPeople);
+        ArrayList<String> dataset = new ArrayList<>();
+        if (args[0].equals("--data")) {
+            dataset = readFileAndReturnDataset(args[1]);
+        }
+
         Menu menu = new Menu();
         Integer option = null;
 
@@ -20,10 +23,10 @@ public class Main {
             if (option != null) {
                 switch (option) {
                     case 1:
-                        search(scanner, people);
+                        search(dataset);
                         break;
                     case 2:
-                        printAllPeople(people);
+                        printAllPeople(dataset);
                         break;
                 }
             }
@@ -31,24 +34,20 @@ public class Main {
 
     }
 
-    private static int setNumberOfPeople(Scanner scanner, String message) {
-        System.out.println(message);
-        int numberOfRepetition = scanner.nextInt();
-        scanner.nextLine(); // Consume the line break that nextInt() left behind.
+    private static ArrayList<String> readFileAndReturnDataset(String fileName) {
+        String pathToFile = String.format("./%s", fileName);
+        File file = new File(pathToFile);
+        ArrayList<String> dataset = new ArrayList<>();
 
-        return numberOfRepetition;
-    }
-
-    private static ArrayList<String> setPeopleDataset(Scanner scanner, int numberOfPeople) {
-        System.out.println("Enter all people:");
-        ArrayList<String> textToSearchFor = new ArrayList<String>();
-
-        for (int i = 0; i < numberOfPeople; i++) {
-            String newText = scanner.nextLine();
-            textToSearchFor.add(newText);
+        try {
+            Scanner scanner = new Scanner(file);
+            while(scanner.hasNext()) {
+                dataset.add(scanner.nextLine());
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println("No file found on " + pathToFile);
         }
-
-        return textToSearchFor;
+        return dataset;
     }
 
     private static void printAllPeople(ArrayList<String> people) {
@@ -57,7 +56,8 @@ public class Main {
         people.forEach((person) -> System.out.println(person));
     }
 
-    private static void search(Scanner scanner, ArrayList<String> textToSearchFor) {
+    private static void search(ArrayList<String> textToSearchFor) {
+        Scanner scanner = new Scanner(System.in);
         System.out.println(); // Print an empty line.
         System.out.println("Enter a name or email to search all suitable people.");
         String query = scanner.nextLine();

@@ -318,6 +318,20 @@ files:
           }
       }
     learner_created: true
+  - name: src/search/Main.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: data.txt
+    visible: true
+    learner_created: true
+  - name: src/search/Menu.class
+    visible: true
+    is_binary: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5499#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 02 Oct 2024 10:39:28 UTC"
 record: 4
