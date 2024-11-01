@@ -1,0 +1,17 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: "// Java code template starts here\nimport java.util.*;\n\npublic class Main\
+    \ {\n\n    // Define Animal class here\n\n    // Define Dog class here\n\n   \
+    \ // Define Cat class here\n\n    public static void main(String[] args) {\n\n\
+    \        // In this section, you need to add code to receive input\n        //\
+    \ and create the corresponding animal object\n\n        // Replace the placeholders\
+    \ with the appropriate calls\n        if(/*Dog?*/) {\n\n        } else if(/*Cat?*/)\
+    \ {\n\n        } else {\n            System.out.println(\"Animal type not recognized\"\
+    );\n        }\n    }\n} \n\n// Java code template ends here"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/41029#comment
+status: Unchecked
+record: -1
+submission_language: java17

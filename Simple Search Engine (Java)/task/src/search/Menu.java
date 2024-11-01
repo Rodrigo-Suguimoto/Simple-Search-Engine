@@ -1,6 +1,5 @@
 package search;
 
-import java.util.Optional;
 import java.util.Scanner;
 
 public class Menu {
