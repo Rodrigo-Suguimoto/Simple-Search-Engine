@@ -1,28 +1,51 @@
-// Java code template starts here
+
 import java.util.*;
 
 public class Main {
 
-    // Define Animal class here
+    static class Animal {
+        String name;
 
-    // Define Dog class here
+        public Animal(String name) {
+            this.name = name;
+        }
+    }
 
-    // Define Cat class here
+    static class Dog extends Animal {
+        public Dog(String name) {
+            super(name);
+        }
+
+        void sound() {
+            System.out.println("Bark!");
+        }
+    }
+
+    static class Cat extends Animal {
+        public Cat(String name) {
+            super(name);
+        }
+
+        void sound() {
+            System.out.println("Meow!");
+        }
+    }
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String animal = scanner.nextLine();
+        String animalName = scanner.nextLine();
 
-        // In this section, you need to add code to receive input
-        // and create the corresponding animal object
-
-        // Replace the placeholders with the appropriate calls
-        if(/*Dog?*/) {
-
-        } else if(/*Cat?*/) {
-
+        if(animal.equalsIgnoreCase("Dog")) {
+            Dog dog = new Dog(animalName);
+            dog.sound();
+        } else if(animal.equalsIgnoreCase("Cat")) {
+            Cat cat = new Cat(animalName);
+            cat.sound();
         } else {
             System.out.println("Animal type not recognized");
         }
-    }
-} 
 
-// Java code template ends here
+        scanner.close();
+    }
+}

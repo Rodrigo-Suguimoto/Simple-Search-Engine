@@ -4,8 +4,9 @@ import java.util.*;
 class MapFunctions {
 
     public static void putThreeCountries(Map<String, String> map) {
-        // write your code here
-
+        map.put("Brazil", "Brasília");
+        map.put("Argentina", "Buenos Aires");
+        map.put("Colombia", "Bogotá");
     }
 }
 

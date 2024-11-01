@@ -2,10 +2,15 @@ import java.util.*;
 
 class Main {
     private static int sum(Map<String, Integer> map) {
-        // implement me
-    }
+        Collection<Integer> values = map.values();
+        int sum = 0;
 
-    // do not change the code below
+        for(int value : values) {
+            sum += value;
+        }
+
+        return sum;
+    }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

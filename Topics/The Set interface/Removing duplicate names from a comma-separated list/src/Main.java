@@ -13,5 +13,7 @@ public class Main {
         // TODO: Implement a Set to keep track of unique names
         // The Set interface is part of Java's collections framework and is used
         // to store unique elements - duplicates are automatically disregarded
+        Set<String> namesSet = new LinkedHashSet<>(List.of(names));
+        System.out.println(String.join(",", namesSet));
     }
 }

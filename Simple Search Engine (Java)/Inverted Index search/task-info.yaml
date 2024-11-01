@@ -291,6 +291,57 @@ files:
       }
     
     learner_created: false
+  - name: src/search/Main.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/search/Menu.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/search/Menu.java
+    visible: true
+    text: |
+      package search;
+      
+      import java.util.Optional;
+      import java.util.Scanner;
+      
+      public class Menu {
+          int option;
+      
+          public void printOptions() {
+              System.out.println(); // Print an empty line.
+              System.out.println("=== Menu ===");
+              System.out.println("1. Find a person");
+              System.out.println("2. Print all people");
+              System.out.println("0. Exit");
+          }
+      
+          public Integer getSelectedOptionFromUser() {
+              Scanner scanner = new Scanner(System.in);
+              int option = scanner.nextInt();
+      
+              if (option > 2 || option < 0) {
+                  System.out.println(); // Print an empty line.
+                  System.out.println("Incorrect option! Try again.");
+                  return null;
+              } else {
+                  return option;
+              }
+          }
+      }
+    learner_created: true
+  - name: src/data.txt
+    visible: true
+    text: |-
+      Dwight Joseph djo@gmail.com
+      Rene Webb webb@gmail.com
+      Katie Jacobs
+      Erick Harrington harrington@gmail.com
+      Myrtle Medina
+      Erick Burgess
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5500#comment
 status: Unchecked
 record: -1

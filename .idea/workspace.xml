@@ -6,34 +6,48 @@
   <component name="ChangeListManager">
     <list default="true" id="591f4687-3c01-4f0d-a9e6-1733243b1107" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/Inverted Index search/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/Inverted Index search/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/X-files/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/X-files/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/classes/java/main/search/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/classes/java/main/search/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/classes/java/main/search/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/classes/java/main/search/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/classes/java/test/SimpleSearchEngineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/classes/java/test/SimpleSearchEngineTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/classes/java/test/TestClue.class" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/classes/java/test/TestClue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/reports/tests/test/classes/SimpleSearchEngineTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/reports/tests/test/classes/SimpleSearchEngineTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/test-results/test/TEST-SimpleSearchEngineTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/test-results/test/TEST-SimpleSearchEngineTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/tmp/compileTestJava/compileTransaction/stash-dir/SimpleSearchEngineTest.class.uniqueId1" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/tmp/compileTestJava/compileTransaction/stash-dir/SimpleSearchEngineTest.class.uniqueId1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/tmp/compileTestJava/compileTransaction/stash-dir/TestClue.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/tmp/compileTestJava/compileTransaction/stash-dir/TestClue.class.uniqueId0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/lesson-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/out/production/classes/search/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/out/production/classes/search/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/test/SearchEngineTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/test/SearchEngineTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Search Engine (Java)/task/test/SimpleSearchEngineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Search Engine (Java)/task/test/SimpleSearchEngineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/ArrayList/Creating list/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/ArrayList/Creating list/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/ArrayList/Creating list/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/ArrayList/Creating list/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/ArrayList/Output the list's elements/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/ArrayList/Output the list's elements/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/ArrayList/Output the list's elements/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/ArrayList/Output the list's elements/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/ArrayList/Taming the to-do tangle/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/ArrayList/Taming the to-do tangle/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/ArrayList/Taming the to-do tangle/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/ArrayList/Taming the to-do tangle/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/ArrayList/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/ArrayList/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Command-line arguments/Theory/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Command-line arguments/Theory/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Command-line arguments/Theory/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Command-line arguments/Theory/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/HashMap/Countries and capitals/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/HashMap/Countries and capitals/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/HashMap/The same pairs/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/HashMap/The same pairs/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/HashMap/The same pairs/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/HashMap/The same pairs/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Object class/Generating sounds based on animal types/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Object class/Generating sounds based on animal types/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Object class/Generating sounds based on animal types/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Object class/Generating sounds based on animal types/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/The Collections framework overview/Sorting the digits of an integer in ascending order/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/The Collections framework overview/Sorting the digits of an integer in ascending order/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/The Collections framework overview/Sorting the digits of an integer in ascending order/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/The Collections framework overview/Sorting the digits of an integer in ascending order/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/The List interface/Count the value occurrences/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/The List interface/Count the value occurrences/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/The List interface/Count the value occurrences/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/The List interface/Count the value occurrences/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/The Map interface/Sum of values/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/The Map interface/Sum of values/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/The Map interface/Sum of values/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/The Map interface/Sum of values/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/The Set interface/Removing duplicate names from a comma-separated list/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/The Set interface/Removing duplicate names from a comma-separated list/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/The Set interface/Removing duplicate names from a comma-separated list/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/The Set interface/Removing duplicate names from a comma-separated list/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/The Set interface/Strict superset/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/The Set interface/Strict superset/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/section-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/section-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,16 +88,63 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Simple Search Engine (Java)/task/data.txt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Main.class" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Menu.class" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Simple Search Engine (Java)/task/src/search/Menu.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Simple Search Engine (Java)/task/test/SearchEngineTests.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Simple Search Engine (Java)/task/test/SimpleSearchEngineTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/ArrayList/Creating list/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/ArrayList/How to get an element by the index/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/ArrayList/Output the list's elements/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/ArrayList/Powers of indexes/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/ArrayList/Taming the to-do tangle/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/ArrayList/The behavior of methods/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/ArrayList/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/ArrayList/What ArrayList can store/src/Task.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Command-line arguments/Get the game mode/src/Main.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Command-line arguments/How to pass ints/src/Task.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Command-line arguments/Parameters and their values/src/Main.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Command-line arguments/Passing three arguments/src/Task.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Command-line arguments/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/HashMap/Advantages/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/HashMap/Calculate index/answer.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/HashMap/Countries and capitals/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/HashMap/The same pairs/src/Main.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/HashMap/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/HashMap/When to use/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Object class/A string representation of an object/answer.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Object class/Find an incorrect assignment/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Object class/Generating sounds based on animal types/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Object class/Java Class Hierarchies Mysteries Unveiled/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Object class/Match methods with their descriptions/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Object class/Statements/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Object class/The fully-qualified name of Object/answer.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Object class/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Collections framework overview/Collections properties/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Collections framework overview/Getting the number of elements/answer.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Collections framework overview/Root interfaces/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Collections framework overview/Sorting the digits of an integer in ascending order/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Collections framework overview/Supported collections/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Collections framework overview/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The List interface/Count the value occurrences/src/Main.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The List interface/Mutable lists/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The List interface/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Map interface/Count sum/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Map interface/Duplications/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Map interface/Getting value by key/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Map interface/Is it a collection/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Map interface/Is it true or not/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Map interface/Sum of values/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Map interface/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Set interface/Comparing sets/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Set interface/Implementations/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Set interface/Removing duplicate names from a comma-separated list/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Set interface/Strict superset/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Set interface/The set of programming languages/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Set interface/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Set interface/Tree set elements order/src/Task.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -101,7 +162,7 @@
     &quot;Gradle.Tests in 'Simple_Search_Engine_(Java).Simple_Search_Engine__Java_-task.test'.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;stage-4&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;
   }

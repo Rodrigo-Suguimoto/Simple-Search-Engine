@@ -322,12 +322,12 @@ files:
     visible: true
     is_binary: true
     learner_created: true
-  - name: data.txt
-    visible: true
-    learner_created: true
   - name: src/search/Menu.class
     visible: true
     is_binary: true
+    learner_created: true
+  - name: data.txt
+    visible: true
     learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5499#comment
 status: Solved

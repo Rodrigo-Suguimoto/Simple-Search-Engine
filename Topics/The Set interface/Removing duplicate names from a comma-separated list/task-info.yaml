@@ -22,6 +22,9 @@ files:
       }
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/44680#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 21 Oct 2024 16:05:28 UTC"
 record: -1
 submission_language: java17

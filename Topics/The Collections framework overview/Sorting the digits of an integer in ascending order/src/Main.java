@@ -9,12 +9,21 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
+        List<Integer> numbers = convertToList(number);
 
-        // Write your code here.
+        System.out.println(numbers);
     }
 
     public static List<Integer> convertToList(int number){
-        // Write your code here.
-        return null;
+        List<Integer> numbers = new ArrayList<Integer>();
+        String numbersAsString = String.valueOf(number);
+
+        for (int i = 0; i < numbersAsString.length(); i++) {
+            numbers.add(Character.getNumericValue(numbersAsString.charAt(i)));
+        }
+
+        Collections.sort(numbers);
+
+        return numbers;
     }
 }
