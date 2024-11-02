@@ -1,6 +1,8 @@
 package search;
 
 import java.io.FileNotFoundException;
+import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
@@ -31,7 +33,6 @@ public class Main {
                 }
             }
         } while (option == null || option != 0);
-
     }
 
     private static ArrayList<String> readFileAndReturnDataset(String fileName) {
@@ -48,6 +49,10 @@ public class Main {
             System.out.println("No file found on " + pathToFile);
         }
         return dataset;
+    }
+
+    private static Map<String, List<Integer>> invertedIndex(ArrayList<String> dataset) {
+
     }
 
     private static void printAllPeople(ArrayList<String> people) {
