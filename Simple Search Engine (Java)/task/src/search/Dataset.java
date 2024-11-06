@@ -21,8 +21,28 @@ public class Dataset {
             while(scanner.hasNext()) {
                 this.dataset.add(scanner.nextLine());
             }
+
+            transformToInvertedIndex();
+            System.out.println(this.invertedIndex);
         } catch (FileNotFoundException e) {
             System.out.println("No file found on " + pathToFile);
+        }
+    }
+
+    private void transformToInvertedIndex() {
+        for (int i = 0; i < this.dataset.size(); i++) {
+            addToInvertedIndex(this.dataset.get(i), i);
+        }
+    }
+
+    private void addToInvertedIndex(String lineContent, int lineNumber) {
+        String[] words = lineContent.toLowerCase().split(" ");
+
+        for (String word : words) {
+            if (!this.invertedIndex.containsKey(word)) {
+                this.invertedIndex.put(word, new ArrayList<>()); // Since it's a new word, create a new list for line numbers
+            }
+            this.invertedIndex.get(word).add(lineNumber); // Add line number to the word's list
         }
     }
 
