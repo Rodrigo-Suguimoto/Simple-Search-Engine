@@ -350,5 +350,8 @@ files:
     is_binary: true
     learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5500#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 07 Nov 2024 10:25:39 UTC"
 record: -1

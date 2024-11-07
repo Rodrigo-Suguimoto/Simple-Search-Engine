@@ -23,7 +23,6 @@ public class Dataset {
             }
 
             transformToInvertedIndex();
-            System.out.println(this.invertedIndex);
         } catch (FileNotFoundException e) {
             System.out.println("No file found on " + pathToFile);
         }
@@ -51,22 +50,11 @@ public class Dataset {
         System.out.println(); // Print an empty line.
         System.out.println("Enter a name or email to search all suitable people.");
         String query = scanner.nextLine();
-        ArrayList<String> matches = new ArrayList<String>();
-
-        this.dataset.forEach(text -> {
-            Pattern compiledQueryPattern = Pattern.compile(query, Pattern.CASE_INSENSITIVE);
-            Matcher matcher = compiledQueryPattern.matcher(text);
-
-            if (matcher.find()) {
-                matches.add(text);
-            }
-        });
-
-        if (matches.size() > 0) {
-            matches.forEach(text -> System.out.println(text));
-        } else {
-            System.out.println("No matching people found.");
+        List<Integer> linesWithContent = this.invertedIndex.getOrDefault(query.toLowerCase(), Collections.emptyList());
+        for (int line : linesWithContent) {
+            System.out.println(this.dataset.get(line));
         }
+
     }
 
     public void printDataset() {
