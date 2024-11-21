@@ -1,10 +1,10 @@
 type: choice
 is_multiple_choice: false
 options:
-  - text: "list[index]"
-  - text: list.charAt(index)
   - text: list.get(index)
   - text: list.take(index)
+  - text: list.charAt(index)
+  - text: "list[index]"
   - text: list.indexOf(index)
 files:
   - name: src/Task.java

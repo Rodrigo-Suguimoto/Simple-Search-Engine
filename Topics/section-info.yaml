@@ -7,3 +7,5 @@ content:
   - The Set interface
   - The Map interface
   - HashMap
+  - Strategy
+  - Template method
