@@ -444,6 +444,12 @@ files:
           }
       }
     learner_created: true
+  - name: src/search/Search.java
+    visible: true
+    learner_created: true
+  - name: src/search/SearchMethod.java
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5501#comment
 status: Unchecked
-record: -1
+record: 6

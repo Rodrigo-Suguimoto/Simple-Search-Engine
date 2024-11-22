@@ -1,4 +1,5 @@
 package search;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,7 +17,8 @@ public class Main {
             if (option != null) {
                 switch (option) {
                     case 1:
-                        dataset.search();
+                        Search searchStrategy = getSearchStrategy();
+                        searchStrategy.searchMethod();
                         break;
                     case 2:
                         dataset.printDataset();
@@ -24,5 +26,20 @@ public class Main {
                 }
             }
         } while (option == null || option != 0);
+    }
+
+    public static Search getSearchStrategy() {
+        System.out.println("Select a matching strategy: ALL, ANY, NONE");
+        Scanner scanner = new Scanner(System.in);
+        String searchStrategy = scanner.nextLine();
+        Search searcher = new Search();
+
+        switch(searchStrategy) {
+            case "ALL":
+                searcher.setSearchMethod(new SearchAllStrategy());
+                break;
+        }
+
+        return searcher;
     }
 }
