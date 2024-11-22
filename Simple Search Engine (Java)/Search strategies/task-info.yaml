@@ -450,6 +450,26 @@ files:
   - name: src/search/SearchMethod.java
     visible: true
     learner_created: true
+  - name: src/search/Search.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/search/SearchAllStrategy.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/search/SearchMethod.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/search/SearchAnyStrategy.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/search/SearchNoneStrategy.class
+    visible: true
+    is_binary: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5501#comment
 status: Unchecked
 record: 6

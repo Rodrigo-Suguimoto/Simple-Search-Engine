@@ -38,6 +38,12 @@ public class Main {
             case "ALL":
                 searcher.setSearchMethod(new SearchAllStrategy());
                 break;
+            case "ANY":
+                searcher.setSearchMethod(new SearchAnyStrategy());
+                break;
+            case "NONE":
+                searcher.setSearchMethod(new SearchNoneStrategy());
+                break;
         }
 
         return searcher;
