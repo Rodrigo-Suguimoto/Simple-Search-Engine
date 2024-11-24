@@ -11,6 +11,10 @@ public class Dataset {
     private Map<String, List<Integer>> invertedIndex = new HashMap<>();
     private ArrayList<String> dataset = new ArrayList<>();
 
+    public ArrayList<String> getDataset() {
+        return this.dataset;
+    }
+
     public void setDataset(String fileName) {
         String pathToFile = String.format("./%s", fileName);
 

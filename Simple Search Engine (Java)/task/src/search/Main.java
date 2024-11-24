@@ -18,7 +18,7 @@ public class Main {
                 switch (option) {
                     case 1:
                         Search searchStrategy = getSearchStrategy();
-                        searchStrategy.searchMethod();
+                        searchStrategy.searchMethod(dataset.getDataset());
                         break;
                     case 2:
                         dataset.printDataset();
