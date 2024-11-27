@@ -2,15 +2,17 @@ package search;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.lang.reflect.Array;
 import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Dataset {
 
     private Map<String, List<Integer>> invertedIndex = new HashMap<>();
     private ArrayList<String> dataset = new ArrayList<>();
 
+    public Map<String, List<Integer>> getInvertedIndex() {
+        return this.invertedIndex;
+    }
     public ArrayList<String> getDataset() {
         return this.dataset;
     }
