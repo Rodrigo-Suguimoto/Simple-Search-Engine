@@ -1,19 +1,17 @@
 package search;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class Search {
     private SearchMethod searchMethod;
 
     public void search(Dataset dataset) {
         String[] wordsToBeSearched = askForWordsToBeSearched();
-        this.searchMethod.searchMethod(dataset, wordsToBeSearched);
+        List<List<Integer>> linesThatMatch = findLinesThatMatch(dataset, wordsToBeSearched);
+        this.searchMethod.searchMethod(linesThatMatch, dataset);
     }
 
-    public String[] askForWordsToBeSearched() {
+    private String[] askForWordsToBeSearched() {
         Scanner scanner = new Scanner(System.in);
         System.out.println(); // Print an empty line.
         System.out.println("Enter a name or email to search all suitable people.");
@@ -22,12 +20,25 @@ public class Search {
         return wordsToBeSearched;
     }
 
+    private List<List<Integer>> findLinesThatMatch(Dataset dataset, String[] wordsToBeSearched) {
+        List<List<Integer>> listOfLineNumbers = new ArrayList<>();
+
+        for (String word : wordsToBeSearched) {
+            List<Integer> lines = dataset
+                    .getInvertedIndex()
+                    .getOrDefault(word.toLowerCase(), Collections.emptyList());
+            listOfLineNumbers.add(lines);
+        }
+
+        return listOfLineNumbers.isEmpty() ? Collections.emptyList() : listOfLineNumbers;
+    }
+
     public void setSearchMethod(SearchMethod searchMethod) {
         this.searchMethod = searchMethod;
     }
 
-    public void searchMethod(Dataset dataset, String[] wordsToBeSearched) {
-        this.searchMethod.searchMethod(dataset, wordsToBeSearched);
+    public void searchMethod(List<List<Integer>> linesThatMatch, Dataset dataset) {
+        this.searchMethod.searchMethod(linesThatMatch, dataset);
     }
 }
 

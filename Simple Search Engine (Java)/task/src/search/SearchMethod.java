@@ -3,27 +3,20 @@ package search;
 import java.util.*;
 
 public interface SearchMethod {
-    void searchMethod(Dataset dataset, String[] wordsToBeSearched);
+    void searchMethod(List<List<Integer>> linesThatMatch, Dataset dataset);
 }
 
 class SearchAllStrategy implements SearchMethod {
     @Override
-    public void searchMethod(Dataset dataset, String[] wordsToBeSearched) {
-        List<List<Integer>> listOfLineNumbers = new ArrayList<>();
-
-        for (int i = 0; i < wordsToBeSearched.length; i++) {
-            List<Integer> lines = (dataset.getInvertedIndex().getOrDefault(wordsToBeSearched[i].toLowerCase(), Collections.emptyList()));
-            listOfLineNumbers.add(lines);
-        }
-
-        if (listOfLineNumbers == null || listOfLineNumbers.isEmpty()) {
+    public void searchMethod(List<List<Integer>> linesThatMatch, Dataset dataset) {
+        if (linesThatMatch.isEmpty()) {
             return;
         }
 
         // Initialize the set with the first list
-        Set<Integer> commonLines = new HashSet<>(listOfLineNumbers.get(0));
-        for (int i = 1; i < listOfLineNumbers.size(); i++) {
-            commonLines.retainAll(listOfLineNumbers.get(i));
+        Set<Integer> commonLines = new HashSet<>(linesThatMatch.get(0));
+        for (int i = 1; i < linesThatMatch.size(); i++) {
+            commonLines.retainAll(linesThatMatch.get(i));
         }
 
         for (Integer line : commonLines) {
@@ -34,14 +27,14 @@ class SearchAllStrategy implements SearchMethod {
 
 class SearchAnyStrategy implements SearchMethod {
     @Override
-    public void searchMethod(Dataset dataset, String[] wordsToBeSearched) {
+    public void searchMethod(List<List<Integer>> linesThatMatch, Dataset dataset) {
         System.out.println("Search ANY strategy");
     }
 }
 
 class SearchNoneStrategy implements SearchMethod {
     @Override
-    public void searchMethod(Dataset dataset, String[] wordsToBeSearched) {
+    public void searchMethod(List<List<Integer>> linesThatMatch, Dataset dataset) {
         System.out.println("Search NONE strategy");
     }
 }
