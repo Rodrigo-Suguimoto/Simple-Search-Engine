@@ -28,7 +28,19 @@ class SearchAllStrategy implements SearchMethod {
 class SearchAnyStrategy implements SearchMethod {
     @Override
     public void searchMethod(List<List<Integer>> linesThatMatch, Dataset dataset) {
-        System.out.println("Search ANY strategy");
+        if (linesThatMatch.isEmpty()) {
+            return;
+        }
+
+        Set<Integer> uniqueLines = new HashSet<>(linesThatMatch.get(0));
+        for (int i = 1; i < linesThatMatch.size(); i++) {
+            uniqueLines.addAll(linesThatMatch.get(i));
+        }
+
+        for (Integer line : uniqueLines) {
+            System.out.println(dataset.getDataset().get(line));
+        }
+
     }
 }
 
