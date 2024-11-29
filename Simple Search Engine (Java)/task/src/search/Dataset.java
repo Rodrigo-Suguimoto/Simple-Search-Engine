@@ -51,18 +51,6 @@ public class Dataset {
         }
     }
 
-    public void search() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println(); // Print an empty line.
-        System.out.println("Enter a name or email to search all suitable people.");
-        String query = scanner.nextLine();
-        List<Integer> linesWithContent = this.invertedIndex.getOrDefault(query.toLowerCase(), Collections.emptyList());
-        for (int line : linesWithContent) {
-            System.out.println(this.dataset.get(line));
-        }
-
-    }
-
     public void printDataset() {
         System.out.println(); // Print an empty line.
         System.out.println("=== List of people ===");

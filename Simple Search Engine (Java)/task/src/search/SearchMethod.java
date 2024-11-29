@@ -47,6 +47,21 @@ class SearchAnyStrategy implements SearchMethod {
 class SearchNoneStrategy implements SearchMethod {
     @Override
     public void searchMethod(List<List<Integer>> linesThatMatch, Dataset dataset) {
-        System.out.println("Search NONE strategy");
+        ArrayList<String> data = dataset.getDataset();
+        if (linesThatMatch.isEmpty() || linesThatMatch.stream().allMatch(List::isEmpty)) {
+            data.forEach(entry -> System.out.println(entry));
+            return;
+        }
+
+        Set<Integer> uniqueLines = new HashSet<>(linesThatMatch.get(0));
+        for (int i = 1; i < linesThatMatch.size(); i++) {
+            uniqueLines.addAll(linesThatMatch.get(i));
+        }
+
+        for (int i = 0; i < data.size(); i++) {
+            if (!uniqueLines.contains(i)) {
+                System.out.println(data.get(i));
+            }
+        }
     }
 }
