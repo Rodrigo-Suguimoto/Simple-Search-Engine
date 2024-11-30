@@ -444,6 +444,36 @@ files:
           }
       }
     learner_created: true
+  - name: src/search/Search.java
+    visible: true
+    learner_created: true
+  - name: src/search/SearchMethod.java
+    visible: true
+    learner_created: true
+  - name: src/search/Search.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/search/SearchAllStrategy.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/search/SearchMethod.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/search/SearchAnyStrategy.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/search/SearchNoneStrategy.class
+    visible: true
+    is_binary: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5501#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">Hyperskill</a>
+    to continue learning.
+  time: "Fri, 29 Nov 2024 10:51:45 UTC"
+record: 6

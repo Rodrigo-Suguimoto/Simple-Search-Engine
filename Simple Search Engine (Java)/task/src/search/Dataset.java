@@ -2,14 +2,20 @@ package search;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.lang.reflect.Array;
 import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Dataset {
 
     private Map<String, List<Integer>> invertedIndex = new HashMap<>();
     private ArrayList<String> dataset = new ArrayList<>();
+
+    public Map<String, List<Integer>> getInvertedIndex() {
+        return this.invertedIndex;
+    }
+    public ArrayList<String> getDataset() {
+        return this.dataset;
+    }
 
     public void setDataset(String fileName) {
         String pathToFile = String.format("./%s", fileName);
@@ -43,18 +49,6 @@ public class Dataset {
             }
             this.invertedIndex.get(word).add(lineNumber); // Add line number to the word's list
         }
-    }
-
-    public void search() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println(); // Print an empty line.
-        System.out.println("Enter a name or email to search all suitable people.");
-        String query = scanner.nextLine();
-        List<Integer> linesWithContent = this.invertedIndex.getOrDefault(query.toLowerCase(), Collections.emptyList());
-        for (int line : linesWithContent) {
-            System.out.println(this.dataset.get(line));
-        }
-
     }
 
     public void printDataset() {
